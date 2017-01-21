@@ -26,7 +26,7 @@ ROBOTSTXT_OBEY = True
 MYSQL_HOST = 'localhost'
 MYSQL_DBNAME = 'enjoymusicdb'
 MYSQL_USER = 'zmarvin'
-MYSQL_PASSWD = 'zhang2zhan'
+MYSQL_PASSWD = 'password'
 # end of MySQL database configure setting
 
 ITEM_PIPELINES = {

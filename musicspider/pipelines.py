@@ -24,7 +24,7 @@ import MySQLdb.cursors
 
 class MySQLStoreMusicspiderPipeline(object):
     def __init__(self):
-        self.conn = MySQLdb.connect(user = 'zmarvin', passwd = 'zhang2zhan', db = 'enjoymusicdb', host = 'localhost', charset = 'utf8', use_unicode = True)
+        self.conn = MySQLdb.connect(user = 'zmarvin', passwd = 'passwd', db = 'enjoymusicdb', host = 'localhost', charset = 'utf8', use_unicode = True)
         self.cursor = self.conn.cursor()
  
     def process_item(self, item, spider):
